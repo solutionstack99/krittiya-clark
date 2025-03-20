@@ -1,19 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
-interface WorkEntry {
-  company: string;
-  href: string;
-  badges: readonly string[];
-  location: string;
-  title: string;
-  icon: string;
-  logoUrl: string;
-  start: string;
-  end: string;
-  description: string;
-}
-
 export const DATA = {
   name: "Kritiya Clark",
   initials: "DV",
@@ -48,18 +35,21 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/solutionstack99",
         icon: Icons.github,
+
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/krittiya-clark-software-engineer",
         icon: Icons.linkedin,
+
         navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/krittiyaClark",
         icon: Icons.x,
+
         navbar: true,
       },
       Youtube: {
@@ -72,10 +62,12 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
+
         navbar: false,
       },
     },
   },
+
   work: [
     {
       company: "Independent Contractor",
