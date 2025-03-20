@@ -76,7 +76,7 @@ export const DATA = {
       location: "Remote",
       title: "Front-end developer and web designer",
       icon: "check",
-      // logoUrl: "/atomic.png",
+      logoUrl: "/independent-contractor.png",
       start: "May 2023",
       end: "Present",
       description:
