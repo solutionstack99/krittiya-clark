@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Kritiya Clark",
   initials: "DV",
-  url: "https://dillion.io",
+  url: "https://www.krittiya.dev",
   location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Front-end developer and web designer. I design pixel perpect and love building things.",
   summary:
